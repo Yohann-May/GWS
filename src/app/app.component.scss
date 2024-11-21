@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+app-sports {
+  z-index: 1000;
+}
