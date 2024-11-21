@@ -13,7 +13,7 @@ export class HomeComponent {
     this.router.navigate(['/esport']);
   }
   navigateToBadminton(): void {
-    this.router.navigate(['/basketball']);
+    this.router.navigate(['/badminton']);
   }
   navigateToHandball(): void {
     this.router.navigate(['/handball']);
