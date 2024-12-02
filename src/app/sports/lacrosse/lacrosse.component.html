@@ -17,21 +17,7 @@
       </p>
     </div>
   </section>
-  <section class="bottom">
-    <div class="carousel-container">
-      <div class="carousel-slide">
-        <ng-container *ngIf="images.length > 0">
-          <img [src]="images[currentSlideIndex]" alt="Slide image" />
-        </ng-container>
-      </div>
-      <button (click)="prevSlide()">
-        <mat-icon>arrow_back_ios</mat-icon>
-      </button>
-      <button (click)="nextSlide()">
-        <mat-icon>arrow_forward_ios</mat-icon>
-      </button>
-    </div>
-  
+  <section class="bottom">  
     <div class="iframe-container">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2094.259681778257!2d8.579210100000001!3d58.338420199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4647ee68f8031313%3A0xafba0d7d2a6dcabf!2sLillesandsveien%2035%2C%204877%20Grimstad!5e0!3m2!1sfr!2sno!4v1731582729410!5m2!1sfr!2sno"
