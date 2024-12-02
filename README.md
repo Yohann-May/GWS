@@ -6,6 +6,6 @@ Run `insall-angular.ps1`.
 >- Installs Angular CLI globally.
 >- Installs the exact Angular, RxJS, TypeScript, and zone.js versions in the current project.
 
-## Start the server
+# Start the server
 
 Run `start.ps1` to start the server. Navigate to `http://localhost:4200/`.
